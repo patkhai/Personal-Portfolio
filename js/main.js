@@ -14,7 +14,7 @@ $.fn.escape = function(callback) {
 
 //Menu Navigation Hamburger
 var navigationRight = jQuery('.menu-wrap');
-
+ 
 function Navigation() {
     var bodyEl = document.body,
         content = document.querySelector('#close-button'),
@@ -37,6 +37,9 @@ function Navigation() {
             var target = ev.target;
             if (isOpen && target !== openbtn) {
                 toggleMenu();
+                
+            } else {
+                classie.remove(bodyEl, 'show-menu');
             }
         });
     }
@@ -60,6 +63,7 @@ function Navigation() {
 
     init();
 };
+
 
 //Tabs
 function Tabs() {

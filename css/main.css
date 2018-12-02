@@ -2104,11 +2104,14 @@ ul.client-thumb-2 li a img:hover{
 }
 /*Details on portfolio*/
 .details {
-    padding: 20px;
-    position: absolute;
+    padding: 100px;
+    position: center;
+    top: 50;
     bottom: 0;
     left: 0;
     z-index: 3;
+    right: 0;
+    text-align: center;
 }
 .details span {
     display: block;
@@ -2122,13 +2125,13 @@ ul.client-thumb-2 li a img:hover{
 .details .title {
     line-height: 1;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 45px;
 }
 .details .info {
     line-height: 1.2;
     letter-spacing: 1.5pt;
     margin-top: 5px;
-    font-size: 12px;
+    font-size: 20px;
 }
 .img .like-product {
     position: absolute;
