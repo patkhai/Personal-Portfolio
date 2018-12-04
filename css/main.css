@@ -503,8 +503,8 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .slider-description-inner h1 {
-    font-family: 'azedobold';
-    font-size: 60px;
+    font-family: 'azedolight';
+    font-size: 80px;
     letter-spacing: 8px;
 }
 .slider-description-inner h1 span {
@@ -512,7 +512,7 @@ a:hover>span.site-name{
     background: #36bfecb3;
     padding: 22px;
     font-weight: 100;
-    margin-left: 10px;
+    margin-left: 3px;
     line-height: 80px;
 }
 .cd-intro {
@@ -520,7 +520,7 @@ a:hover>span.site-name{
     margin-left: 6%;
 }
 .cd-headline {
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 40px;
     color: #000;
     font-weight: 100;
@@ -537,7 +537,7 @@ a:hover>span.site-name{
     left: 0;
     top: 0;
     font-weight: normal;
-    color: rgb(255, 248, 248);
+    color: rgb(201, 201, 201);
 }
 .cd-words-wrapper b.is-visible {
     position: relative;
